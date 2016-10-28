@@ -1,0 +1,31 @@
+{
+  "name": "scroll-listener",
+  "version": "1.0.0",
+  "description": "A lightweight passive approach to performant scroll monitoring with requestAnimationFrame fallback.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:html-next/scroll-listener.git"
+  },
+  "keywords": [
+    "performance",
+    "scroll",
+    "listener",
+    "requestAnimationFrame",
+    "passive",
+    "event",
+    "handler"
+  ],
+  "author": "Chris Thoburn (@runspired)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/html-next/scroll-listener/issues"
+  },
+  "homepage": "https://github.com/html-next/scroll-listener#readme",
+  "dependencies": {
+    "raf-scheduler": "^0.0.2"
+  }
+}
